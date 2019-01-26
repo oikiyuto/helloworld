@@ -14,7 +14,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-
+    @IBOutlet weak var label: UILabel!
+    
+    @IBAction func button(_ sender: Any) {
+        
+        label.text = "はろー"
+    }
+    
 }
 
